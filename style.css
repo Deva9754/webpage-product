@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#heading {
+    padding-top: 50px;
+
+
+}
+
+#heading h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0.6;
+    padding: 5px 10px;
+
+
+
+}
+
+#heading #h2 {
+    padding-left: 25vw;
+}
+
+.blocktext {
+    width: fit-content;
+
+}
+
+.blocktext h5 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#smallheadings {
+    padding-top: 7vw;
+    padding-right: 30px;
+    gap: 2px;
+}
+
+#smallheadings {
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1vw;
+}
+
+#herofooter {
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+#herofooter a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+#herofooter .circle {
+
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+#iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#second-page {
+    width: 100%;
+    color: #fff;
+    height: 100vh;
+    background-color: black;
+    padding-top: 100px;
+    padding-right: 10vw;
+}
+
+.elem {
+    width: 90%;
+    border-top: 1px solid grey;
+    padding: 3.5vw 3vw;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: 0.7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    display: none;
+    z-index: 999;
+    height: 100%;
+    /* opacity: 0; */
+    position: absolute;
+}
+#about{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    background-color: black;
+    padding: 10vw 5vw;
+    padding-left: 25vw;
+   
+
+}
+#about img{
+    width: 25vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+#textabout{
+    width: 80%; 
+    
+}
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 9px;
+    padding: 10px;
+
+}
+#textabout p{
+padding: 20px;
+}
+#textabout a{
+    padding: 2px 22px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+#subscribe{
+    color: #fff;
+    padding: 20px 30px;
+    background-color: black;
+    padding-bottom:3vw ;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    color: #fff;
+}
+#footer-left{
+display: flex;
+gap: 20px;
+}
+#footer-right{
+    display: flex;
+    gap: 20px;
+}
+    #footer-right a{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+    }
